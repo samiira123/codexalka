@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    gap: 50px;
+    justify-content: start;
+    align-items: start;
+    height: 100vh;
+    margin: 100px;
+    background-color: #000;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(#00f, #0f0, #f00,yellow, #00f ,yellow);
+    transition: transform 1s ease-in-out;
+}
+
+.circle:hover {
+    transform: rotate(360deg);
+}
+

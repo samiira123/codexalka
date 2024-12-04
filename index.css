@@ -1,0 +1,30 @@
+/* Reset basic styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #111;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Digital clock styling */
+  .clock {
+    font-size: 64px;
+    font-weight: bold;
+    color: #00ff00; /* Digital green color */
+    background: #000; /* Black background */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: inline-flex;
+    gap: 10px;
+  }
+  
+  .clock span {
+    display: inline-block;
+    width: 2ch; /* Ensures consistent width for digits */
+    text-align: center;
+  }
+  
